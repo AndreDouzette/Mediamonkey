@@ -1,0 +1,36 @@
+#Lines starting with # are skipped (used for comments)
+#Empty lines are skipped
+#Use the following format to associate a genre with a color
+#<Genre>: <hex color code> (: comment)
+#Reusing previous colors is possible by the use of &<genre>
+#Genre is case sensitive, hex color is not
+
+#Green
+Swing			:00c000
+Danseband		:69ff05
+Dansband		:&Danseband
+
+#Blue
+Blues			:0000ff
+Boogie			:0462cd
+Train			:&Boogie
+Piano			:&Boogie
+
+#Yellow
+Jazz			:daa536
+Jive			:A08000
+Big Band		:&Jive
+Smooth			:&Jazz
+
+#Red
+Rock'n roll		:FF0000
+Rockabilly		:bd004f
+
+#Brown
+Country			:8b4d0e
+Bluegrass		:&Country
+
+#Other
+Balade			:D08080
+A Capella		:5cc4c4		:Change this color!
+Vokal			:&A Capella
